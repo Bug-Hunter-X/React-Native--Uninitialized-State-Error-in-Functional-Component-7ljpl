@@ -1,0 +1,1 @@
+This error occurs when you try to access a state variable before it has been initialized. This often happens in functional components before the first render.  The code will try to use `this.state` before the component's state has been set up.
