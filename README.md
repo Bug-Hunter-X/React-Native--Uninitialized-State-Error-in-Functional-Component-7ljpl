@@ -1,0 +1,1 @@
+This repository demonstrates a common error in React Native functional components: accessing state before it has been initialized. The `uninitializedStateBug.js` file shows the error, while `uninitializedStateSolution.js` provides the correct approach using useState's second argument or useEffect hook for asynchronous operations.
